@@ -1,0 +1,40 @@
+/* nt-example3 */
+
+#nt-example3 {
+  margin: 80px auto 0;
+}
+
+#nt-example3-container {
+  text-align: center;
+}
+
+#nt-example3-container i {
+  font-size: 36px;
+  margin: 8px;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+#nt-example3-container i:hover {
+  color: #333;
+}
+
+#nt-example3 li {
+  color: #4e4e4e;
+  background: #f2f2f2;
+  overflow: hidden;
+  height: 80px;
+  padding: 10px;
+  line-height: 60px;
+  font-size: 40px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+#nt-example3 li:hover {
+  background: #fff;
+}
