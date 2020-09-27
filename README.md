@@ -118,7 +118,7 @@ return <>
 
 ## 📇 Props
 
-| Parameter      | Usage                                                                                     | Type/Values                          | Default value    |
+| Prop           | Usage                                                                                     | Type/Values                          | Default value    |
 | -------------- | ----------------------------------------------------------------------------------------- | ------------------------------------ | ---------------- |
 | `rowHeight`    | defines the height (in px) of one row                                                     | `int`                                | _22_             |
 | `maxRows`      | defines the number of rows displayed at the same time                                     | `int`                                | _3_              |
