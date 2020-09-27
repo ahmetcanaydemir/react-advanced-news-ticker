@@ -6,14 +6,15 @@
     "start": "react-scripts start",
     "build:docs": "react-scripts build",
     "build": "SET NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/react-advanced-news-ticker --out-dir dist --copy-files",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d dist"
+    "predeploy": "npm run build:docs",
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/ahmetcanaydemir/react-advanced-news-ticker"
   },
+  "homepage": "http://ahmetcanaydemir.github.io/react-advanced-news-ticker/",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.13.1"
@@ -23,6 +24,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "gh-pages": "^3.1.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
   },
