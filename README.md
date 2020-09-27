@@ -124,7 +124,7 @@ return <>
 | `maxRows`      | defines the number of rows displayed at the same time                                     | `int`                                | _3_              |
 | `speed`        | defines the animation speed (in ms)of the rows moving up or down                          | `int` _(in ms)_                      | _400_            |
 | `duration`     | defines the times (in ms) before the rows automatically move                              | `int` _(in ms)_                      | _2500_           |
-| `direction`    | defines the direction of the rows movement                                                | `Direcions.UP` _or_ `Direcions.DOWN` | _'Direcions.UP'_ |
+| `direction`    | defines the direction of the rows movement                                                | `Directions.UP` _or_ `Directions.DOWN` | _Direcions.UP_ |
 | `autoStart`    | enable/disable auto start on load                                                         | `bool`                               | _true_           |
 | `pauseOnHover` | enable/disable pause when mouse hovers the newsTicker element                             | `bool`                               | _true_           |
 | `className`    | for define className of newsTicker's ul element                                           | `bool`                               | _true_           |
