@@ -154,18 +154,18 @@ ref.current.pause();
 
 #### 📜 Method List
 
-| Method     | Parameter(s) | Action                                                                                                                                                                            |
-| ---------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `start`    |              | starts moving newsTicker elements                                                                                                                                                 |
-| `stop`     |              | stops moving newsTicker elements                                                                                                                                                  |
-| `getState` |              | returns current state: `TickerStates.Stopped` = stopped, `TickerStates.Running` = started, `TickerStates.Paused` = paused (and started)                                           |
-| `pause`    |              | pauses newsTicker elements without stopping them - the newsTicker has to be started to be able to pause it (the `pause` method is called on `mouseOver` if `pauseOnHover` = true) |
-| `unpause`  |              | unpauses newsTicker elements - the newsTicker has to be started & paused to be able to unpause it (the `unpause` method is called on `onMouseLeave` if `pauseOnHover` = true)     |
-| `moveDown` |              | moves elements down                                                                                                                                                               |
-| `moveUp`   |              | moves elements up                                                                                                                                                                 |
-| `moveNext` |              | moves up or down according to the current `direction` option                                                                                                                      |
-| `movePrev` |              | moves up or down according to the current `direction` option                                                                                                                      |
-| `move`     |              | equivalent to `moveNext`, but will not move if `paused`                                                                                                                           |
+| Method     | Action                                                                                                                                                                            |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `start`    | starts moving newsTicker elements                                                                                                                                                 |
+| `stop`     |stops moving newsTicker elements                                                                                                                                                  |
+| `getState` |returns current state: `TickerStates.Stopped` = stopped, `TickerStates.Running` = started, `TickerStates.Paused` = paused (and started)                                           |
+| `pause`    | pauses newsTicker elements without stopping them - the newsTicker has to be started to be able to pause it (the `pause` method is called on `mouseOver` if `pauseOnHover` = true) |
+| `unpause`  |  unpauses newsTicker elements - the newsTicker has to be started & paused to be able to unpause it (the `unpause` method is called on `onMouseLeave` if `pauseOnHover` = true)     |
+| `moveDown` |  moves elements down                                                                                                                                                               |
+| `moveUp`   |   moves elements up                                                                                                                                                                 |
+| `moveNext` |    moves up or down according to the current `direction` option                                                                                                                      |
+| `movePrev` |     moves up or down according to the current `direction` option                                                                                                                      |
+| `move`     |          equivalent to `moveNext`, but will not move if `paused`                                                                                                                           |
 
 ## Author
 
