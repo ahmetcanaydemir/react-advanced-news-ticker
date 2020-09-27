@@ -22,17 +22,9 @@
 
 > A powerful, flexible and animated vertical news ticker plugin for React. React Advanced News Ticker provides multiple callbacks and methods to allow a maximum flexibility and an easy implementation into any project.
 
-### 🏠 [Homepage and Demo](https://ahmetcanaydemir.github.io/react-advanced-news-ticker)
+### 🏠 [Demo](https://ahmetcanaydemir.github.io/react-advanced-news-ticker)
 
-## Install
-
-```sh
-npm i react-advanced-news-ticker
-```
-
-## Usage
-
-Basically create NewsTicker element and give your components as children. You can also use your own custom componets.
+## ⚡️ Quickstart
 
 ```JSX
 <NewsTicker>
@@ -43,7 +35,15 @@ Basically create NewsTicker element and give your components as children. You ca
 </NewsTicker>
 ```
 
-<br/> With custom parameters:
+## ⚙️ Installation
+
+```sh
+npm i react-advanced-news-ticker
+```
+
+## 👀 Examples
+
+#### 📖 With Custom Props
 
 ```JSX
 <NewsTicker
@@ -64,7 +64,7 @@ Basically create NewsTicker element and give your components as children. You ca
 </NewsTicker>
 ```
 
-<br/> With callbacks:
+#### 📖 With Callbacks
 
 ```JSX
 const updateInfos = () => {
@@ -88,7 +88,7 @@ return <NewsTicker
 </NewsTicker>
 ```
 
-<br/> With methods. You need to use ref for using methods.
+#### 📖 With Methods
 
 ```JSX
 const newsTickerRef = useRef(null);
@@ -116,9 +116,7 @@ return <>
 </>
 ```
 
-## Props
-
-# Options & Callbacks
+## 📇 Props
 
 | Parameter      | Usage                                                                                     | Type/Values                          | Default value    |
 | -------------- | ----------------------------------------------------------------------------------------- | ------------------------------------ | ---------------- |
@@ -140,7 +138,7 @@ return <>
 | `pause`        | `callback` called on `pause` action (triggered on `onMouseEnter` if `pauseOnHover=true `) | `function`                           |
 | `unpause`      | called on `unpause` action (triggered on `onMouseLeave` if `pauseOnHover=true `)          | `function`                           |
 
-# Methods
+## 📇 Methods
 
 After creating NewsTicker component with ref, methods are called with `ref.current.methodName()`
 
@@ -154,7 +152,7 @@ ref.current.getState();
 ref.current.pause();
 ```
 
-<h3>Methods list</h3>
+#### 📜 Method List
 
 | Method     | Parameter(s) | Action                                                                                                                                                                            |
 | ---------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -178,7 +176,7 @@ ref.current.pause();
 - Github: [@ahmetcanaydemir](https://github.com/ahmetcanaydemir)
 - LinkedIn: [@ahmetcanaydemir](https://linkedin.com/in/ahmetcanaydemir)
 
-## 🤝 Contributing
+## 👍 Contribute
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ahmetcanaydemir/react-advanced-news-ticker/issues).
 
