@@ -73,7 +73,7 @@ function Example2Block() {
   }
   
   #nt-example2-container i {
-    font-size: 36px;
+    font-size: 24px;
     margin: 8px;
     cursor: pointer;
     -webkit-transition: all 0.1s ease-in-out;
@@ -134,7 +134,7 @@ function Example2Block() {
   }
   
   #nt-example2-infos .infos-hour {
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 700;
     margin-top: 20px;
   }
@@ -171,7 +171,7 @@ function Example2Block() {
             />
           </div>
           <div className="col-lg-6">
-            <div stlye={{ height: 500 }}>
+            <div style={{ height: 540 }}>
               <Example2 />
             </div>
           </div>

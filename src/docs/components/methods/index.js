@@ -40,7 +40,7 @@ ref.current.pause()`}
       <div className="text-dark pb-5">
         <div className="container py-5" style={{ fontSize: 14, maxWidth: 900 }}>
           <h2 className="text-center">Method List</h2>
-          <table class="table table-striped params-table">
+          <table class="table table-striped table-responsive params-table">
             <thead>
               <tr>
                 <th>Method</th>

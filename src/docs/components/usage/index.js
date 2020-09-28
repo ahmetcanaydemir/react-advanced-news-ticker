@@ -80,7 +80,7 @@ return <>
       <Title title="Usage" id="usage" />
 
       <div className="text-dark pb-5">
-        <div className="container py-5" style={{ maxWidth: 900 }}>
+        <div className="container py-5 px-4" style={{ maxWidth: 900 }}>
           <div className="row">
             <div className="mb-2">Import react advanced news ticker:</div>
             <CodeMirror

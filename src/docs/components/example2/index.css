@@ -13,7 +13,7 @@
 }
 
 #nt-example2-container i {
-  font-size: 36px;
+  font-size: 24px;
   margin: 8px;
   cursor: pointer;
   -webkit-transition: all 0.1s ease-in-out;
@@ -74,7 +74,7 @@
 }
 
 #nt-example2-infos .infos-hour {
-  font-size: 50px;
+  font-size: 32px;
   font-weight: 700;
   margin-top: 20px;
 }
@@ -86,4 +86,6 @@
 
 #nt-example2-infos .infos-text {
   text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
