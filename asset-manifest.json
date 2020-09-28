@@ -12,9 +12,9 @@
     "static/js/4.f75041b7.chunk.js.map": "/react-advanced-news-ticker/static/js/4.f75041b7.chunk.js.map",
     "static/js/5.7f2f96f5.chunk.js": "/react-advanced-news-ticker/static/js/5.7f2f96f5.chunk.js",
     "static/js/5.7f2f96f5.chunk.js.map": "/react-advanced-news-ticker/static/js/5.7f2f96f5.chunk.js.map",
-    "main.css": "/react-advanced-news-ticker/static/css/main.c8cf8136.chunk.css",
-    "main.js": "/react-advanced-news-ticker/static/js/main.d36e82d2.chunk.js",
-    "main.js.map": "/react-advanced-news-ticker/static/js/main.d36e82d2.chunk.js.map",
+    "main.css": "/react-advanced-news-ticker/static/css/main.3d72af28.chunk.css",
+    "main.js": "/react-advanced-news-ticker/static/js/main.e9f4cf45.chunk.js",
+    "main.js.map": "/react-advanced-news-ticker/static/js/main.e9f4cf45.chunk.js.map",
     "runtime-main.js": "/react-advanced-news-ticker/static/js/runtime-main.773cf334.js",
     "runtime-main.js.map": "/react-advanced-news-ticker/static/js/runtime-main.773cf334.js.map",
     "static/css/8.b9ddd548.chunk.css": "/react-advanced-news-ticker/static/css/8.b9ddd548.chunk.css",
@@ -251,17 +251,17 @@
     "static/js/123.3f542c97.chunk.js": "/react-advanced-news-ticker/static/js/123.3f542c97.chunk.js",
     "static/js/123.3f542c97.chunk.js.map": "/react-advanced-news-ticker/static/js/123.3f542c97.chunk.js.map",
     "index.html": "/react-advanced-news-ticker/index.html",
-    "precache-manifest.fa5e9b6dde9bb9e7cb108fcbf85067ae.js": "/react-advanced-news-ticker/precache-manifest.fa5e9b6dde9bb9e7cb108fcbf85067ae.js",
+    "precache-manifest.9ea0d77c8ac8917b215d61a70c13194d.js": "/react-advanced-news-ticker/precache-manifest.9ea0d77c8ac8917b215d61a70c13194d.js",
     "service-worker.js": "/react-advanced-news-ticker/service-worker.js",
     "static/css/8.b9ddd548.chunk.css.map": "/react-advanced-news-ticker/static/css/8.b9ddd548.chunk.css.map",
-    "static/css/main.c8cf8136.chunk.css.map": "/react-advanced-news-ticker/static/css/main.c8cf8136.chunk.css.map",
+    "static/css/main.3d72af28.chunk.css.map": "/react-advanced-news-ticker/static/css/main.3d72af28.chunk.css.map",
     "static/js/8.faf3d213.chunk.js.LICENSE.txt": "/react-advanced-news-ticker/static/js/8.faf3d213.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.773cf334.js",
     "static/css/8.b9ddd548.chunk.css",
     "static/js/8.faf3d213.chunk.js",
-    "static/css/main.c8cf8136.chunk.css",
-    "static/js/main.d36e82d2.chunk.js"
+    "static/css/main.3d72af28.chunk.css",
+    "static/js/main.e9f4cf45.chunk.js"
   ]
 }

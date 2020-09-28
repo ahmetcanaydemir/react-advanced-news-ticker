@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "912cfc3a31eb8a0ed9fb0e05089006c1",
+    "revision": "7a495b9989d3a8d829842ad72234bf13",
     "url": "/react-advanced-news-ticker/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-advanced-news-ticker/static/css/8.b9ddd548.chunk.css"
   },
   {
-    "revision": "b2024c78ecbf0d260535",
-    "url": "/react-advanced-news-ticker/static/css/main.c8cf8136.chunk.css"
+    "revision": "2a734caeaf9627de2854",
+    "url": "/react-advanced-news-ticker/static/css/main.3d72af28.chunk.css"
   },
   {
     "revision": "9d3138bb7ec23566ff51",
@@ -504,8 +504,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-advanced-news-ticker/static/js/99.fa2d5236.chunk.js"
   },
   {
-    "revision": "b2024c78ecbf0d260535",
-    "url": "/react-advanced-news-ticker/static/js/main.d36e82d2.chunk.js"
+    "revision": "2a734caeaf9627de2854",
+    "url": "/react-advanced-news-ticker/static/js/main.e9f4cf45.chunk.js"
   },
   {
     "revision": "9c5ba32df824e1e7732c",
