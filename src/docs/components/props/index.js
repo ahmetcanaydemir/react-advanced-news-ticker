@@ -8,7 +8,7 @@ function Props() {
 
       <div className="text-dark pb-5">
         <div className="container py-5" style={{ fontSize: 14, maxWidth: 900 }}>
-          <table class="table table-striped table-responsive params-table">
+          <table className="table table-striped table-responsive params-table">
             <thead>
               <tr>
                 <th>Parameter</th>

@@ -34,10 +34,10 @@ function Hello() {
             href="https://github.com/ahmetcanaydemir/react-advanced-news-ticker"
             target="_blank"
             rel="noopener noreferrer">
-            <i class="fab fa-github" /> View on GitHub
+            <i className="fab fa-github" /> View on GitHub
           </a>
         </div>
-        <div class="d-flex text-left justify-content-center mt-5">
+        <div className="d-flex text-left justify-content-center mt-5">
           <div style={{ width: 320 }}>
             <CodeMirror
               value=" npm i react-advanced-news-ticker"

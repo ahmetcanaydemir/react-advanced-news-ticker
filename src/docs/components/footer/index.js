@@ -18,28 +18,28 @@ function Footer() {
           rel="noopener noreferrer"
           className="text-decoration-none text-secondary"
           href="https://www.github.com/ahmetcanaydemir">
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           className="text-decoration-none text-secondary"
           href="https://www.twitter.com/ahmetcnaydemir">
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-twitter"></i>
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           className="text-decoration-none text-secondary"
           href="https://www.linkedin.com/in/ahmetcanaydemir">
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           className="text-decoration-none text-secondary"
           href="mailto:root@ahmetcanaydemir.com">
-          <i class="fas fa-envelope"></i>
+          <i className="fas fa-envelope"></i>
         </a>
       </div>
     </div>

@@ -90,7 +90,7 @@ function Example3Block() {
         <div>PRAESENT</div>
         <div>NUNC</div>
       </NewsTicker>
-      <span class="button mt-2" id="nt-example3-button" onClick={startSpin}>
+      <span className="button mt-2" id="nt-example3-button" onClick={startSpin}>
         {getButtonContent()}
       </span>
     </div>

@@ -17,8 +17,10 @@ function NavBar() {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item ">
-              { // eslint-disable-next-line
-              }<a className="nav-link" href="#">
+              {
+                // eslint-disable-next-line
+              }
+              <a className="nav-link" href="#">
                 Home <span className="sr-only">(current)</span>
               </a>
             </li>
@@ -49,7 +51,7 @@ function NavBar() {
               rel="noopener noreferrer"
               className="text-decoration-none text-secondary"
               href="https://www.github.com/ahmetcanaydemir/advanced-react-news-ticker">
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
           </span>
         </div>
