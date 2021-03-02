@@ -21,6 +21,9 @@ class NewsTicker extends Component {
   componentDidMount() {
     this.init();
   }
+  componentWillUnmount() {
+    if (this.state.moveInterval) clearInterval(this.state.moveInterval);
+  }
 
   init() {
     this.element.current.style.height = `${this.props.rowHeight * this.props.maxRows}px`;

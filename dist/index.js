@@ -57,6 +57,11 @@ var NewsTicker = function (_Component) {
       this.init();
     }
   }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      if (this.state.moveInterval) clearInterval(this.state.moveInterval);
+    }
+  }, {
     key: "init",
     value: function init() {
       this.element.current.style.height = this.props.rowHeight * this.props.maxRows + "px";
