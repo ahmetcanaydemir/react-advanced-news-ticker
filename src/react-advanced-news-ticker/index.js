@@ -24,7 +24,11 @@ class NewsTicker extends Component {
   componentWillUnmount() {
     if (this.state.moveInterval) clearInterval(this.state.moveInterval);
   }
-
+  componentDidUpdate(prevProps) {
+        if(prevProps.children!==this.props.children){
+            this.setState({...this.state, items: (Array.isArray(this.props.children) && this.props.children) || [this.props.children]},);
+        }
+  }
   init() {
     this.element.current.style.height = `${this.props.rowHeight * this.props.maxRows}px`;
     this.element.current.style.overflow = `hidden`;
